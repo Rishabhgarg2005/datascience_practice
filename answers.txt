@@ -1,0 +1,26 @@
+1. Performance Comparison: Fear vs. Greed
+The data shows distinct shifts in performance metrics when comparing Fear and Greed days.
+
+PnL Variance: Average daily PnL tends to be more volatile during Fear days. While Greed days often show a steadier upward trend in cumulative PnL for momentum traders, Fear days are characterized by sharp, high-magnitude losses, often due to forced liquidations or "bottom fishing."
+
+Win Rate: Evidence suggests that win rates for retail-sized accounts drop by a significant margin during Fear periods. This is largely because Fear days often coincide with high-volatility "wick" events that trigger stop-losses more frequently.
+
+Drawdown Proxy: By calculating the daily maximum PnL drop relative to the starting position, we find that drawdowns are significantly deeper on Fear days, particularly for accounts that do not adjust their leverage.
+
+2. Behavioral Shifts Based on Sentiment
+Traders demonstrate quantifiable changes in behavior when market sentiment flips:
+
+Leverage & Position Sizing: In Greed markets, there is a visible trend of "leverage creeping," where traders increase their multiplier to maximize returns on perceived "easy" moves. Conversely, in Fear markets, position sizes often decrease, but the use of high leverage remains high among a small subset of "revenge traders."
+
+Trade Frequency: Trade frequency typically peaks during the transition from Greed to Fear, as traders attempt to scalp the high volatility. However, sustained Fear leads to a "exhaustion phase" where trade frequency drops.
+
+Long/Short Bias: A strong Long bias is persistent during Greed days. Interestingly, the data often shows that traders are slow to flip to a Short bias during Fear days, often maintaining a Long bias until significant drawdowns occur.
+
+3. Trader Segmentation
+Based on the behavioral analysis, three distinct segments were identified:
+
+The Aggressive Degens (High Leverage): Traders consistently using >10x leverage. They show the highest PnL on Greed days but the lowest survival rate (highest drawdown) during Fear events.
+
+The Scalpers (High Frequency): Traders with >20 executions per day. Their win rate is less sensitive to sentiment, but their net PnL is often eroded by execution fees during Fear days.
+
+The Trend Followers (Consistent Winners): Traders who demonstrate a shift in Long/Short ratio that leads the Sentiment Index. They flip Short early in Fear periods and maintain Low Leverage (<3x), resulting in the most consistent equity curve.
